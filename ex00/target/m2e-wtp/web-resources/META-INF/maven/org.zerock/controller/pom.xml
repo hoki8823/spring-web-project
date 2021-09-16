@@ -140,7 +140,7 @@
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis</artifactId>
-			<version>3.5.7</version>
+			<version>3.4.6</version>
 		</dependency>
 		<dependency>
 			<groupId>org.mybatis</groupId>
@@ -156,6 +156,11 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-jdbc</artifactId>
 			<version>${org.springframework-version}</version>
+		</dependency>
+		<dependency> 
+			<groupId>com.oracle.ojdbc</groupId> 
+			<artifactId>orai18n</artifactId> 
+			<version>19.3.0.0</version> 
 		</dependency>
 	</dependencies>
     <build>
