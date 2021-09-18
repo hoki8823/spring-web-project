@@ -166,7 +166,11 @@
 		    <artifactId>log4jdbc-log4j2-jdbc4.1</artifactId>
 		    <version>1.16</version>
 		</dependency>
-		
+		<dependency>
+		  <groupId>com.oracle.ojdbc</groupId>
+		  <artifactId>orai18n</artifactId>
+		  <version>19.3.0.0</version>
+		</dependency>
 		
 	</dependencies>
     <build>
