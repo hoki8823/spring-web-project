@@ -29,7 +29,7 @@ public class BoardController {
 	public String register(BoardVO board, RedirectAttributes rttr) {
 
 		service.register(board);
-		rttr.addAttribute("result",board.getBno());
+		rttr.addFlashAttribute("result",board.getBno());
 		
 		return "redirect:/board/list";
 	}
